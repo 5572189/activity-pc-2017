@@ -73,4 +73,13 @@
         margin: 20px 0;
         margin-left: 350px; }
 
+.frm-container {
+  width: 100%;
+  background-color: #425670; }
+  .frm-container .flt {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 999999; }
+
 /*# sourceMappingURL=6.18.css.map */

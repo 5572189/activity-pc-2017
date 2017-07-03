@@ -1,18 +1,18 @@
 .layout-container { width: 100%; min-width: 1200px; max-width: 1920px; margin: 0 auto; overflow: hidden; background-color: #fff; }
 #ali { width: 100%; }
-#ali .banner { position: relative; width: 1200px; height: 2387px; margin: 0 auto; }
-#ali .banner img { position: absolute; top: 0; left: 50%; width: 1920px; height: 2387px; margin-left: -960px; }
+#ali .banner { position: relative; width: 1200px; height: 1921px; margin: 0 auto; }
+#ali .banner img { position: absolute; top: 0; left: 50%; width: 1920px; height: 1921px; margin-left: -960px; }
 #ali .banner a{display: block; width: 100px;height: 30px;background: url("../imgs/three-hour-shopping/buy.png") no-repeat;}
-#ali .banner .btn-buy01{position: absolute;left: 420px;top: 890px;}
-#ali .banner .btn-buy02{position: absolute;right: 210px;top: 890px;}
-#ali .banner .btn-buy03{position: absolute;left: 295px;top: 1270px;}
-#ali .banner .btn-buy04{position: absolute;left: 665px;top: 1270px;}
-#ali .banner .btn-buy05{position: absolute;right: 45px;top: 1270px;}
-#ali .banner .btn-buy06{position: absolute;left: 410px;bottom: 700px;}
-#ali .banner .btn-buy07{position: absolute;right: 220px;bottom:700px;}
-#ali .banner .btn-buy08{position: absolute;left: 295px;bottom: 315px;}
-#ali .banner .btn-buy09{position: absolute;left: 665px;bottom: 315px;}
-#ali .banner .btn-buy010{position: absolute;right: 45px;bottom: 315px;}
+#ali .banner .btn-buy01{position: absolute;left: 420px;top: 715px;}
+#ali .banner .btn-buy02{position: absolute;right: 210px;top: 715px;}
+#ali .banner .btn-buy03{position: absolute;left: 295px;top: 1020px;}
+#ali .banner .btn-buy04{position: absolute;left: 665px;top: 1020px;}
+#ali .banner .btn-buy05{position: absolute;right: 45px;top: 1020px;}
+#ali .banner .btn-buy06{position: absolute;left: 410px;bottom: 560px;}
+#ali .banner .btn-buy07{position: absolute;right: 220px;bottom:560px;}
+#ali .banner .btn-buy08{position: absolute;left: 295px;bottom: 250px;}
+#ali .banner .btn-buy09{position: absolute;left: 665px;bottom: 250px;}
+#ali .banner .btn-buy010{position: absolute;right: 45px;bottom: 250px;}
 
 #ali .content{
 	position: relative;
@@ -28,7 +28,7 @@
 	height: 623px;
 	margin-left: -960px;
 }
-#ali .rule { width: 100%;height: 140px; background-color: #ff6fbd;  }
+#ali .rule { width: 100%;height: 140px; background-color: #f486bf;  }
 #ali .rule dl { width: 1200px; height: 140px; margin: 0 auto; color: #fff; font-family: "Microsoft Yahei"; }
 #ali .rule dt { font-size: 24px; padding: 20px 0 15px; text-align: center;}
 #ali .rule dd { font-size: 14px; line-height: 30px;margin-left: 357px;}
@@ -130,6 +130,5 @@
 	width:45px;
 	height: 45px;
 	background: url("../imgs/three-hour-shopping/like.png") no-repeat;
-	
-}
 
+}

@@ -13,10 +13,13 @@
       top: 0;
       width: 1203px;
       margin: 0 auto; }
-      .layout-container .layout-banner .banner .hero {
+      .layout-container .layout-banner .banner #hero {
         position: absolute;
-        left: 30px;
-        top: 85px; }
+        left: 40px;
+        top: 80px;
+        width: 312px;
+        height: 341px;
+        background: url("../imgs/fathers-day/hero.png") no-repeat; }
   .layout-container .rule {
     position: relative;
     width: 1200px;
