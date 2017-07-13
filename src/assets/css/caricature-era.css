@@ -55,7 +55,7 @@
         font-weight: bold;
         color: #e03155; }
       .layout-container .rule dl dd {
-        margin: 20px 0;
+        line-height: 30px;
         font-size: 14px;
         color: #e03155;
         margin-left: 330px; }

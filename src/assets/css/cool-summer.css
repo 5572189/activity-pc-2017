@@ -1,0 +1,319 @@
+.header {
+  width: 100%; }
+  .header div {
+    position: relative;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto; }
+    .header div img {
+      padding: 12px 0 12px 20px; }
+    .header div a {
+      position: absolute;
+      right: 20px;
+      top: 17px;
+      display: block;
+      width: 210px;
+      height: 50px;
+      text-align: center;
+      line-height: 50px;
+      font-size: 24px;
+      color: #fff;
+      background-color: #1494b0;
+      border-radius: 10px; }
+      .header div a span {
+        display: block;
+        -webkit-animation: official 3s infinite;
+                animation: official 3s infinite; }
+
+.layout-container {
+  max-width: 1920px;
+  width: 100%;
+  background-color: #ddf9ff; }
+  .layout-container .banner {
+    position: relative;
+    max-width: 1200px;
+    width: 100%;
+    height: 933px;
+    margin: 0 auto; }
+    .layout-container .banner img {
+      position: absolute;
+      left: 50%;
+      top: 0;
+      margin-left: -960px;
+      width: 1920px;
+      height: 933px; }
+  .layout-container .banner-btn {
+    position: relative;
+    max-width: 1200px;
+    width: 100%;
+    height: 1444px;
+    margin: 0 auto; }
+    .layout-container .banner-btn img {
+      position: absolute;
+      left: 50%;
+      top: 0;
+      margin-left: -960px;
+      width: 1920px;
+      height: 1444px; }
+    .layout-container .banner-btn a {
+      display: block;
+      width: 191px;
+      height: 68px;
+      background: url(../imgs/cool-summer/btn.png);
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .layout-container .banner-btn .btn01 {
+      position: absolute;
+      left: 380px;
+      top: 317px; }
+    .layout-container .banner-btn .btn02 {
+      position: absolute;
+      right: 10px;
+      top: 487px; }
+    .layout-container .banner-btn .btn03 {
+      position: absolute;
+      left: 380px;
+      top: 717px; }
+    .layout-container .banner-btn .btn04 {
+      position: absolute;
+      right: 10px;
+      bottom: 487px; }
+    .layout-container .banner-btn .btn05 {
+      position: absolute;
+      left: 380px;
+      bottom: 280px; }
+    .layout-container .banner-btn .btn06 {
+      position: absolute;
+      right: 10px;
+      bottom: 105px; }
+  .layout-container .rule {
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 100px; }
+    .layout-container .rule dl {
+      color: #1494b0;
+      width: 600px;
+      padding-left: 310px;
+      padding-bottom: 60px; }
+      .layout-container .rule dl dt {
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+        padding-top: 70px;
+        padding-bottom: 20px; }
+      .layout-container .rule dl dd {
+        line-height: 35px; }
+
+.frm-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #1494b0; }
+  .frm-container .frm-register {
+    width: 1200px;
+    margin: 0 auto; }
+    .frm-container .frm-register p {
+      text-align: center;
+      font-size: 24px;
+      padding: 10px 0;
+      color: #fff; }
+    .frm-container .frm-register ul {
+      list-style: none;
+      padding-bottom: 20px; }
+      .frm-container .frm-register ul li {
+        float: left;
+        border-radius: 10px;
+        overflow: hidden;
+        margin-right: 40px; }
+      .frm-container .frm-register ul .first {
+        position: relative;
+        width: 400px;
+        height: 40px;
+        margin-left: 112px; }
+        .frm-container .frm-register ul .first input {
+          width: 60%;
+          height: 40px;
+          padding-left: 20px; }
+        .frm-container .frm-register ul .first a {
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: 40%;
+          height: 40px;
+          display: block;
+          text-align: center;
+          line-height: 40px;
+          background-color: #007994;
+          color: #fff; }
+        .frm-container .frm-register ul .first a.active {
+          background-color: #99807f;
+          border-color: #99807f; }
+      .frm-container .frm-register ul .vcode {
+        width: 220px;
+        height: 40px; }
+        .frm-container .frm-register ul .vcode input {
+          width: 100%;
+          height: 40px;
+          padding-left: 20px; }
+      .frm-container .frm-register ul .last {
+        width: 220px;
+        height: 40px; }
+        .frm-container .frm-register ul .last a {
+          display: block;
+          width: 100%;
+          height: 40px;
+          text-align: center;
+          line-height: 40px;
+          font-size: 24px;
+          color: #fff;
+          background-color: #007994; }
+
+#mask-result {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.7); }
+  #mask-result .mask {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -220px;
+    margin-top: -141px;
+    width: 440px;
+    height: 282px;
+    border: 1px solid #007994;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden; }
+    #mask-result .mask > span {
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      display: block;
+      width: 42px;
+      height: 42px;
+      background: url(../imgs/cool-summer/delete.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      z-index: 9999; }
+    #mask-result .mask div {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 440px;
+      height: 222px;
+      background: url(../imgs/cool-summer/succeed.png);
+      background-repeat: no-repeat;
+      background-size: 86px 57px;
+      background-position: 40px 80px; }
+      #mask-result .mask div p {
+        position: absolute;
+        left: 150px;
+        top: 70px;
+        bottom: 0;
+        right: 0;
+        width: 60%;
+        color: #505050;
+        font-size: 22px; }
+    #mask-result .mask a {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      display: block;
+      width: 100%;
+      height: 60px;
+      font-size: 18px;
+      background-color: #007994;
+      text-align: center;
+      line-height: 60px;
+      color: #fff; }
+  #mask-result .result {
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -220px;
+    margin-top: -141px;
+    width: 440px;
+    height: 282px;
+    border: 1px solid #007994;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden; }
+    #mask-result .result > span {
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      display: block;
+      width: 42px;
+      height: 42px;
+      background: url(../imgs/cool-summer/delete.png);
+      background-repeat: no-repeat;
+      background-size: cover; }
+    #mask-result .result div {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 440px;
+      height: 222px; }
+      #mask-result .result div p {
+        position: absolute;
+        left: 30px;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        width: 90%;
+        margin: auto;
+        display: table;
+        color: #505050;
+        font-size: 22px; }
+    #mask-result .result .first {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      display: block;
+      width: 50%;
+      height: 60px;
+      font-size: 18px;
+      background-color: #1494b0;
+      text-align: center;
+      line-height: 60px;
+      color: #fff; }
+    #mask-result .result .last {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      display: block;
+      width: 50%;
+      height: 60px;
+      font-size: 18px;
+      background-color: #007994;
+      text-align: center;
+      line-height: 60px;
+      color: #fff; }
+
+@-webkit-keyframes official {
+  0% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1); }
+  50% {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.5); }
+  100% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1); } }
+
+@keyframes official {
+  0% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1); }
+  50% {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.5); }
+  100% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1); } }
+
+/*# sourceMappingURL=cool-summer.css.map */
