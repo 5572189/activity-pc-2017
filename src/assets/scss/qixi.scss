@@ -1,24 +1,26 @@
 #pageQixi {
   width: 100%;
+  min-width: 1200px;
+  margin: 0 auto;
   background-color: #0c0205;
 
   .page-container {
-    width: 1200px;
-    margin: 0 auto;
+    width: 100%;
 
-    img {
-      width: 100%;
-      vertical-align: top;
-      border: none;
+    .banner,
+    .content {
+      width: 1200px;
+      margin: 0 auto;
+
+      img {
+        width: 100%;
+        vertical-align: top;
+        border: none;
+      }
     }
 
     .banner {
-      width: 100%;
       height: 800px;
-    }
-
-    .content {
-      width: 100%;
     }
 
     .prod {
@@ -83,18 +85,43 @@
         }
       }
     }
+
+    .rules {
+      width: 100%;
+      background-color: #714936;
+
+      dl {
+        width: 1200px;
+        height: 297px;
+        margin: 0 auto;
+        color: #ffe584;
+      }
+
+      dt {
+        font-size: 18px;
+        text-align: center;
+        line-height: 70px;
+      }
+
+      dd {
+        font-size: 14px;
+        line-height: 30px;
+        margin-left: 246px;
+      }
+    }
   }
 }
-
 @keyframes ani {
   0% {
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
   }
+
   50% {
     -webkit-transform: scale(0.7);
     -ms-transform: scale(0.7);
   }
+
   100% {
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
