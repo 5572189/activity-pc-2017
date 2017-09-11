@@ -3,4 +3,4 @@ node_modules/
 .DS_Store
 build/*
 *.lock
-src/assets/css/*
+src/assets/css/
